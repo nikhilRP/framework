@@ -15,11 +15,11 @@ Framework used for rapid application development at hackathons
     eval "$(docker-machine env dev)"
 
   Build and get the application running
-  
+
     cd framework
     docker-compose build
     docker-compose up -d
 
   Create data models if there are any
 
-    docker-compose run --rm -d python create_db.py
+    docker-compose run --rm -d web python create_db.py
