@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nikhilRP/framework.svg?branch=master)](https://travis-ci.org/nikhilRP/framework)
+
 # Framework
 
 Framework used for rapid application development at hackathons

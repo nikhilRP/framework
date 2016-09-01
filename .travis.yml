@@ -20,10 +20,10 @@ install:
   - docker-compose version
 
 before_script:
-  - docker-compose build
+  - docker-compose up --build -d
 
 script:
-  - docker-compose run --rm web py.test
+  - docker-compose run --rm -d web py.test
 
 after_script:
-  - docker-compose down
+  - docker-compose stop
