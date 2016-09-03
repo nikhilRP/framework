@@ -1,0 +1,92 @@
+{
+  "aqi": {
+      "good": 0,
+      "moderate": 50,
+      "unhealthy_for_sensitive_groups": 100,
+      "unhealthy": 150,
+      "very_healthy": 200,
+      "hazardous": 300
+  },
+  "elements":[
+    {
+      "name": "Ground-level ozone",
+      "symbol": "O3",
+      "diseases": ["Asthma", "Chronic bronchitis", "Emphysema"],
+      "causes": [
+        "Industrial facilities",
+        "Electric utilities",
+        "Motor vehicle exhaust",
+        "Gasoline vapors"
+      ],
+      "citation": "https://airnow.gov/index.cfm?action=resources.whatyoucando"
+    },
+    {
+      "name": "Carbon monoxide",
+      "symbol": "CO",
+      "causes": [
+        "Gas appliances", "Fireplaces", "Wood stoves", "Coal or oil furnaces",
+        "Space heaters or oil or kerosene heaters", "Charcoal grills",
+        "Camp stoves", "Gas-powered lawn mowers and power tools",
+        "Automobile exhaust fumes"
+      ],
+      "diseases": ["Sleepiness", "Nausea", "Anxiety", "Depression", "Vomiting",
+        "Confusion", "Impaired vision", "Impaired coordination", "Disorientation"
+      ],
+      "citation": "http://www.nap.edu/read/10378/chapter/3#31"
+    },
+    {
+      "name": "Particle matter",
+      "symbol": "PM",
+      "causes": ["Construction sites", "Unpaved roads", "Fields", "Smokestacks", "Fires"],
+      "diseases": [
+        "Premature death in people with heart or lung disease",
+        "Nonfatal heart attacks",
+        "Irregular heartbeat",
+        "Aggravated asthma",
+        "Decreased lung function",
+        "Increased respiratory symptoms, such as irritation of the airways, coughing or difficulty breathing"
+      ],
+      "citation": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+    },
+    {
+      "name": "Lead",
+      "symbol": "PB",
+      "causes": [
+        "Ore and metals processing",
+        "Piston-engine aircraft operating on leaded aviation fuel",
+        "Waste incinerators",
+        "Lead-acid battery manufacturers"
+      ],
+      "diseases": [
+        "High blood pressure",
+        "Cardiovascular diseases",
+        "Premature birth",
+        "Reduced growth of the fetus"],
+      "citation": "https://www.epa.gov/lead/learn-about-lead#effects"
+    },
+    {
+      "name": "Nitrogen dioxide",
+      "symbol": "NO2",
+      "causes": ["Road traffic", "Fossil fuel combustion", "Tobacco smoking", "Unvented cooking"],
+      "diseases": [
+        "Acute bronchitis",
+        "Cough",
+        "Phlegm",
+        "Allergic reactions to pollens",
+        "Decrease in life expectancy"
+      ],
+      "citation": "http://www.greenfacts.org/en/nitrogen-dioxide-no2/nitrogen-dioxide-no2-greenfacts.pdf"
+    },
+    {
+      "name": "Sulfur dioxide",
+      "symbol": "SO2",
+      "causes": ["Burning of coal or oil at power plants", "Copper smelting", "Volconic eruptions"],
+      "diseases": [
+        "Burning of the nose and throat",
+        "Breathing difficulties",
+        "Severe airway obstructions"
+      ],
+      "citation": "http://www.atsdr.cdc.gov/toxfaqs/tf.asp?id=252&tid=46"
+    }
+  ]
+}

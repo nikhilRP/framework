@@ -1,0 +1,27 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>HAA | Healthy-Air Advisors</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" media="all">
+</head>
+<body>
+<h1>Healthy-Air Advisor</h1>
+<div class="content">
+  <h2>Pollutant: {{ results.name }}</h2>
+  <ul>
+    <li><h3>Symbol</h3>{{ results.symbol }}</h3></li>
+    <li><h3>Causes</h3><ul>
+          {% for element in results.causes %}
+          <li>{{element}}</li>
+          {% endfor %}
+      </ul>
+    </li>
+    <li><h3>Sickness caused</h3><ul>
+            {% for element in results.diseases %}
+            <li>{{element}}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li><h3>Literature</h3>{{ results.citation }}</li>
+  </ul>
+</div>
+</body>
+</html>
